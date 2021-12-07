@@ -299,7 +299,7 @@ return (
                             <Grid alignItems="center" justifyContent="center">
                                 <ResponsiveImgMaterialUi xs={LogoGitLab} style={{ width:"8rem" }} />
                             </Grid>
-                            <Grid alignItems="center" justifyContent="center">
+                            <Grid alignItems="center" justifyContent="center" style={{ marginBottom:'-0.5rem' }}>
                                 <Typography className="textSkill">GitLab</Typography>
                             </Grid>                               
                         </Grid>    

@@ -12,6 +12,7 @@ import CodeOutlinedIcon from '@material-ui/icons/CodeOutlined';
 import PersonIcon from "@material-ui/icons/Person";
 import ResponsiveImgMaterialUi from "responsive-img-material-ui";
 import { makeStyles } from '@material-ui/core/styles';
+import ReactTooltip from "react-tooltip"
 import LogoUCLA from "../../assets/img/logoucla.png";
 import LogoFundaUC from "../../assets/img/logofundauc.png";
 import LogoUNY from "../../assets/img/logouny.png";
@@ -38,7 +39,7 @@ return (
                 </Grid>
                 <Grid item md={8} >
                     <Box col="12" pt={{ md:25 }} className={classes.textCollegeTitle} align={{xs:"center", sm:"left"}}>  
-                        <a href="http://www.uny.edu.ve/" rel="noreferrer" target="_BLANK">
+                        <a href="http://www.uny.edu.ve/" rel="noreferrer" target="_BLANK"  data-tip data-for="registerTipUNY">
                             Universidad Yacambu
                         </a>                      
                     </Box>
@@ -46,7 +47,10 @@ return (
                         <p align="justify">
                             Electronic Computer Engineer. Extensive Knowledge in the Development of Electronic Interfaces (Hardware and Software). Hardware and software development programs, trained to perform in the area of engineering that is responsible for solving engineering problems such as process control industrial and electronic systems of power, instrumentation and industrial control.
                         </p>
-                    </Box>              
+                    </Box>  
+                    <ReactTooltip id="registerTipUNY" place="top" effect="float">
+                        Go to Page oficial Universidad Yacambu 
+                    </ReactTooltip>            
                 </Grid>
             </Grid>    
             <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px" }}> </Grid>  
@@ -58,7 +62,7 @@ return (
                 </Grid>
                 <Grid item md={8} >
                     <Box col="12" pt={{ md:25 }} className={classes.textCollegeTitle} align={{xs:"center", sm:"left"}}>           
-                        <a href="http://www.uc.edu.ve/univ_dep_fundauc.php" rel="noreferrer" target="_BLANK">
+                        <a href="http://www.uc.edu.ve/univ_dep_fundauc.php" rel="noreferrer" target="_BLANK"  data-tip data-for="registerTipFUNDAUC">
 							UNIVERSIDAD DE CARABOBO (FUNDAUC)
 						</a>             
                     </Box>
@@ -68,6 +72,9 @@ return (
                         </p>
                     </Box>              
                 </Grid>
+                <ReactTooltip id="registerTipFUNDAUC" place="top" effect="float">
+                    Go to Page oficial FUNCDAUC 
+                </ReactTooltip>
             </Grid>  
             <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px" }}> </Grid>  
             <Grid container spacing={2} alignItems="center" justifyContent="center">
@@ -78,7 +85,7 @@ return (
                 </Grid>
                 <Grid item md={8} >
                     <Box col="12" pt={{ md:25 }} className={classes.textCollegeTitle} align={{xs:"center", sm:"left"}}>                        
-                        <a href="http://www.ucla.edu.ve/" rel="noreferrer" target="_BLANK">
+                        <a href="http://www.ucla.edu.ve/" rel="noreferrer" target="_BLANK"  data-tip data-for="registerTipUCLA">
                             UNIVERSIDAD CENTROCCIDENTAL LISANDRO ALVARADO (UCLA) DECANATO DE CIENCIAS Y TECNOLOGÍAS (DCYT)							
 						</a>
                     </Box>
@@ -88,6 +95,9 @@ return (
                         </p>
                     </Box>              
                 </Grid>
+                <ReactTooltip id="registerTipUCLA" place="top" effect="float">
+                    Go to Page oficial UCLA 
+                </ReactTooltip>
             </Grid>          
             <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px", marginBottom:"50px" }}> </Grid>
             

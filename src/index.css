@@ -14,3 +14,10 @@
   color: rgb(124, 124, 124);
   font-size: 1rem;
 }
+
+.contact{
+  margin: auto !important;
+  background-color: #ebebeb !important;
+  background:'#f1f1f1' !important;
+  border-radius:'10px'  !important;
+}

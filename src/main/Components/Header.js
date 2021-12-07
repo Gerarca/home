@@ -14,7 +14,7 @@ import {
 } from "@material-ui/core";
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Link, Redirect } from "react-router-dom";
 
 // IMPORTING ICONS
 import MenuIcon from "@material-ui/icons/Menu";
@@ -32,9 +32,11 @@ import About from "./Pages/About";
 import Personal from "./Pages/Personal";
 import Skills from "./Pages/Skills";
 import Briefcase  from "./Pages/Briefcase";
+import NotFoundPage from "./Pages/NotFoundPage";
 
 //logo
-import Logo from "../assets/img/logo.png"
+import Logo from "../assets/img/logo.png";
+
 
 // LOCAL-STYLING
 const useStyles = makeStyles((theme) => ({
@@ -246,6 +248,8 @@ const Header = (props) => {
             <Route exact path="/Skills" component={Skills} />
             <Route exact path="/Briefcase" component={Briefcase} />
             <Route exact path="/About" component={About} />
+            <Route path="/404" component={NotFoundPage} />
+            <Redirect to="/404" />
             </Switch>
         </BrowserRouter>
         </HideOnScroll>

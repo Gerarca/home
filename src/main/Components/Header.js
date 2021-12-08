@@ -242,12 +242,12 @@ const Header = (props) => {
             </Toolbar>
             </AppBar>
             <Switch>
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/Personal" component={Personal} />
-            <Route exact path="/College" component={College} />
-            <Route exact path="/Skills" component={Skills} />
-            <Route exact path="/Briefcase" component={Briefcase} />
-            <Route exact path="/About" component={About} />
+            <Route  path="/" component={Home} />
+            <Route  path="/Personal" component={Personal} />
+            <Route  path="/College" component={College} />
+            <Route  path="/Skills" component={Skills} />
+            <Route  path="/Briefcase" component={Briefcase} />
+            <Route  path="/About" component={About} />
             <Route path="/404" component={NotFoundPage} />
             <Redirect to="/404" />
             </Switch>

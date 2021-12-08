@@ -242,7 +242,7 @@ const Header = (props) => {
             </Toolbar>
             </AppBar>
             <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/home" component={Home} />
             <Route exact path="/Personal" component={Personal} />
             <Route exact path="/College" component={College} />
             <Route exact path="/Skills" component={Skills} />

@@ -3,7 +3,7 @@ import {
     Box,
     Grid
 } from "@material-ui/core";
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import ImgStruard from "../../assets/img/stuard.png";
 
 class NotFoundPage extends React.Component{
@@ -19,6 +19,7 @@ class NotFoundPage extends React.Component{
                                 <p style={{textAlign:"center"}}>
                                 <Link to="/">Go to Home </Link>
                                 </p>
+                                <Redirect to="/" />
                             </Box>                            
                         </Grid>
                     </Box>

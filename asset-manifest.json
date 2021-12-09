@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/home/static/css/main.10289ff1.chunk.css",
-    "main.js": "/home/static/js/main.325cf0f0.chunk.js",
-    "main.js.map": "/home/static/js/main.325cf0f0.chunk.js.map",
+    "main.js": "/home/static/js/main.aa80e7a5.chunk.js",
+    "main.js.map": "/home/static/js/main.aa80e7a5.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.026081ad.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.026081ad.js.map",
     "static/css/2.24882dc0.chunk.css": "/home/static/css/2.24882dc0.chunk.css",
-    "static/js/2.8469aee3.chunk.js": "/home/static/js/2.8469aee3.chunk.js",
-    "static/js/2.8469aee3.chunk.js.map": "/home/static/js/2.8469aee3.chunk.js.map",
+    "static/js/2.b2f5678b.chunk.js": "/home/static/js/2.b2f5678b.chunk.js",
+    "static/js/2.b2f5678b.chunk.js.map": "/home/static/js/2.b2f5678b.chunk.js.map",
     "index.html": "/home/index.html",
     "static/css/2.24882dc0.chunk.css.map": "/home/static/css/2.24882dc0.chunk.css.map",
     "static/css/main.10289ff1.chunk.css.map": "/home/static/css/main.10289ff1.chunk.css.map",
-    "static/js/2.8469aee3.chunk.js.LICENSE.txt": "/home/static/js/2.8469aee3.chunk.js.LICENSE.txt",
+    "static/js/2.b2f5678b.chunk.js.LICENSE.txt": "/home/static/js/2.b2f5678b.chunk.js.LICENSE.txt",
     "static/media/LogoMOWA.e05126ca.png": "/home/static/media/LogoMOWA.e05126ca.png",
     "static/media/Tailwind.36b2728b.png": "/home/static/media/Tailwind.36b2728b.png",
     "static/media/allenbradley.91bd2ccb.png": "/home/static/media/allenbradley.91bd2ccb.png",
@@ -42,7 +42,6 @@
     "static/media/index.css": "/home/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
     "static/media/siemens.e1d8ffae.png": "/home/static/media/siemens.e1d8ffae.png",
     "static/media/sneiderelectric.3d2cfe54.png": "/home/static/media/sneiderelectric.3d2cfe54.png",
-    "static/media/stuard.9f218979.png": "/home/static/media/stuard.9f218979.png",
     "static/media/tianguismx.0794f8c3.png": "/home/static/media/tianguismx.0794f8c3.png",
     "static/media/visualstudio.b8b1e001.svg": "/home/static/media/visualstudio.b8b1e001.svg",
     "static/media/vuetify.b20d393d.png": "/home/static/media/vuetify.b20d393d.png",
@@ -51,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.026081ad.js",
     "static/css/2.24882dc0.chunk.css",
-    "static/js/2.8469aee3.chunk.js",
+    "static/js/2.b2f5678b.chunk.js",
     "static/css/main.10289ff1.chunk.css",
-    "static/js/main.325cf0f0.chunk.js"
+    "static/js/main.aa80e7a5.chunk.js"
   ]
 }

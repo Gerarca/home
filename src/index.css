@@ -25,3 +25,14 @@
 .text404{
   color: midnightblue !important;;
 }
+
+@media (max-width: 700px){
+  .image{
+    height: auto !important;
+  }
+
+  .logobrain{
+    height: 40vh !important;
+    width: 40vh !important;
+  }
+} 

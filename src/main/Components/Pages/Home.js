@@ -1,5 +1,4 @@
 import { Box, Typography, useMediaQuery, Button, Grid } from "@material-ui/core";
-import ResponsiveImgMaterialUi from "responsive-img-material-ui";
 import { Link } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from "@material-ui/core/Paper";
@@ -17,15 +16,15 @@ const Home = () => {
     const classes = useStyles();
     const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
     return (
-        <Paper style={{ background: 'black', height: '100vh'}}>
+        <Paper className="image" style={{ background: 'black', height: '100vh' }}>
             <box md={{ flexGrow: 1 }}>
                 <Grid container spacing={2} alignItems="center" justifyContent="center">
                     <Grid item md={6}>
                         <Box col="12" pt={{ xs:10,  md:15 }} textAlign="center" >
                             <Typography variant="h1">Engineer Gerson Arias</Typography>
-                            <Typography variant="h4">Software Developer</Typography>                       
-                            <ResponsiveImgMaterialUi xs={main} />
-                        </Box>        
+                            <Typography variant="h4">Software Developer</Typography>   
+                            <img src={main} alt="Logo Main" className="logobrain" />                    
+                        </Box>         
                     </Grid>
                     <Grid item md={6} >
                         <Box col="12" pt={{ md:25 }}  >

@@ -40,6 +40,7 @@ import LogoGitLab from "../../assets/img/gitlab.svg";
 import LogoBitBucket from "../../assets/img/bitbucket.svg";
 import LogoVSC from "../../assets/img/visualstudio.svg";
 import LogoPhotoshop from "../../assets/img/photoshop.png";
+import Laravel from "../../assets/img/laravel.svg";
 
 
 
@@ -85,6 +86,14 @@ return (
                             </Box>  
                             <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
                                 <Typography className="textSkill">PHP</Typography>
+                            </Box>  
+                        </Grid>
+                        <Grid item style={{ margin:'auto 0' }}> 
+                            <Box col="12">
+                                <ResponsiveImgMaterialUi xs={Laravel} style={{ width:"3rem" }} />
+                            </Box>  
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
+                                <Typography className="textSkill">Laravel</Typography>
                             </Box>  
                         </Grid>
                         <Grid item style={{ margin:'auto 0' }}>
@@ -159,6 +168,14 @@ return (
                             </Grid>
                             <Grid alignItems="center" justifyContent="center" >
                                 <Typography className="textSkill">Node JS</Typography>
+                            </Grid>                 
+                        </Grid>
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Grid alignItems="center" justifyContent="center" >
+                                <ResponsiveImgMaterialUi xs={Laravel} style={{ width:"3rem" }}  />
+                            </Grid>
+                            <Grid alignItems="center" justifyContent="center" >
+                                <Typography className="textSkill">Laravel</Typography>
                             </Grid>                 
                         </Grid>
                         <Grid item style={{ margin:'auto 0' }}> 

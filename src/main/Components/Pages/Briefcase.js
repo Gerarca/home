@@ -75,7 +75,7 @@ return (
                 </Grid>
                 <Grid item xs={12}  md={8} >
                     <Box col="12" pt={{ md:25 }} className={classes.textCollegeTitle} align="justify">  
-                        <a href="#" rel="noreferrer"  data-tip data-for="registerTipITM">
+                        <a href="javascript:void(0)" rel="noreferrer"  data-tip data-for="registerTicket">
                             System Ticket
                         </a>                      
                     </Box>
@@ -83,12 +83,12 @@ return (
                         <p> <strong> Netsocs </strong>  </p>
                         <p> Developer Full Stack. </p>
                         <p> React JS, Next JS, Node JS, Kafka, Multiservices, Docker, Typescript, MySQL, Tailwind Css. </p>
-                        <a href="#" rel="noreferrer" data-tip data-for="registerTipITM">
+                        <a href="javascript:void(0)" rel="noreferrer" data-tip data-for="registerTicket">
                             Private System
                         </a> 
                     </Box>              
                 </Grid>
-                <ReactTooltip id="registerTipITM" place="top" effect="float">
+                <ReactTooltip id="registerTicket" place="top" effect="float">
                     System cannot be displayed, due to privacy agreements.
                 </ReactTooltip> 
             </Grid>    

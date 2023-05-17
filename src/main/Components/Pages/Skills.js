@@ -41,7 +41,7 @@ import LogoBitBucket from "../../assets/img/bitbucket.svg";
 import LogoVSC from "../../assets/img/visualstudio.svg";
 import LogoPhotoshop from "../../assets/img/photoshop.png";
 import Laravel from "../../assets/img/laravel.svg";
-
+import Docker from "../../assets/img/docker.webp";
 
 
 const Skills = () => {
@@ -192,6 +192,14 @@ return (
                             </Grid>
                             <Grid alignItems="center" justifyContent="center">
                                 <Typography className="textSkill">GraphQL</Typography>
+                            </Grid>                               
+                        </Grid>
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Grid alignItems="center" justifyContent="center">
+                                <ResponsiveImgMaterialUi xs={Docker} style={{ width:"3rem" }} />
+                            </Grid>
+                            <Grid alignItems="center" justifyContent="center">
+                                <Typography className="textSkill">Docker</Typography>
                             </Grid>                               
                         </Grid>
                     </Grid> 

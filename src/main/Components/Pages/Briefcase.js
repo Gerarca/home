@@ -15,11 +15,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import ReactTooltip from "react-tooltip";
 import LogoITM from "../../assets/img/intimidades.png";
 import LogoBetconnections from "../../assets/img/logobetconections.png";
-import LogoMasterPlan from "../../assets/img/logomasterplan.png";
 import LogoCVC from "../../assets/img/cvc.png";
 import LogoREACTJS from "../../assets/img/react.png";
 import LogoMowa from "../../assets/img/LogoMOWA.png";
-import LogoTianguisMX from "../../assets/img/tianguismx.png";
 import LogoLuminotecnia from "../../assets/img/luminotecnia.png";
 import LogoAlemaniacell from "../../assets/img/alemaniacell.svg";
 import LogoArrozal from "../../assets/img/arrozal.svg";
@@ -52,6 +50,7 @@ import LogoRasil from "../../assets/img/rasil.png";
 import LogoStart from "../../assets/img/start.png";
 import LogoUrbania from "../../assets/img/urbania.png";
 import LogoYasui from "../../assets/img/yasui.svg";
+import LogoNextReact from "../../assets/img/next-react.png"
 
 const useStyles = makeStyles((theme) => ({
     textCollegeTitle: {
@@ -67,6 +66,33 @@ const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
 return (
     <div>
         <Box px={4} textAlign="center" >
+
+            <Grid container spacing={2} alignItems="center" justifyContent="center">
+                <Grid item md={4}>
+                    <Box col="12" pt={{ xs:10,  md:15 }} textAlign="center" >
+                        <ResponsiveImgMaterialUi xs={LogoNextReact}   style={{ width:"12rem" }} />
+                    </Box>        
+                </Grid>
+                <Grid item xs={12}  md={8} >
+                    <Box col="12" pt={{ md:25 }} className={classes.textCollegeTitle} align="justify">  
+                        <a href="#" rel="noreferrer"  data-tip data-for="registerTipITM">
+                            System Ticket
+                        </a>                      
+                    </Box>
+                    <Box col="12" pt={{ md:2 }} align="justify" >
+                        <p> <strong> Netsocs </strong>  </p>
+                        <p> Developer Full Stack. </p>
+                        <p> React JS, Next JS, Node JS, Kafka, Multiservices, Docker, Typescript, MySQL, Tailwind Css. </p>
+                        <a href="#" rel="noreferrer" data-tip data-for="registerTipITM">
+                            Private System
+                        </a> 
+                    </Box>              
+                </Grid>
+                <ReactTooltip id="registerTipITM" place="top" effect="float">
+                    System cannot be displayed, due to privacy agreements.
+                </ReactTooltip> 
+            </Grid>    
+            <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px" }}> </Grid> 
 
             <Grid container spacing={2} alignItems="center" justifyContent="center">
                 <Grid item md={4}>
@@ -93,33 +119,7 @@ return (
                     Go to https://intimidades.net/
                 </ReactTooltip> 
             </Grid>    
-            <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px" }}> </Grid>
-
-            <Grid container spacing={2} alignItems="center" justifyContent="center">
-                <Grid item md={4}>
-                    <Box col="12" pt={{ xs:10,  md:15 }} textAlign="center" >
-                        <ResponsiveImgMaterialUi xs={LogoTianguisMX} style={{ width:'10rem' }} />
-                    </Box>        
-                </Grid>
-                <Grid item xs={12}  md={8} >
-                    <Box col="12" pt={{ md:25 }} className={classes.textCollegeTitle} align="justify">  
-                        <a href="https://tianguis-mx.com/" rel="noreferrer" target="_BLANK" data-tip data-for="registerTipTianguis" >
-                            Tianguis MX
-                        </a>                      
-                    </Box>
-                    <Box col="12" pt={{ md:2 }} align="justify" >
-                        <p> Developer Frontend. </p>
-                        <p> Vue JS, HTML, PHP, Laravel, JavaScript, Bootstrap. </p>
-                        <a href="https://tianguis-mx.com/" rel="noreferrer" target="_BLANK" data-tip data-for="registerTipTianguis">
-                            https://tianguis-mx.com/
-                        </a> 
-                    </Box>              
-                </Grid>
-                <ReactTooltip id="registerTipTianguis" place="top" effect="float">
-                    Go to https://tianguis-mx.com/
-                </ReactTooltip>               
-            </Grid>    
-            <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px" }}> </Grid>         
+            <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px" }}> </Grid>       
 
             <Grid container spacing={2} alignItems="center" justifyContent="center">
                 <Grid item md={4}>
@@ -377,32 +377,6 @@ return (
                 </Grid>
                 <ReactTooltip id="registerTipInarco" place="top" effect="float">
                     Go to https://www.inarco.com.pe/
-                </ReactTooltip>
-            </Grid>    
-            <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px" }}> </Grid>
-
-            <Grid container spacing={2} alignItems="center" justifyContent="center">
-                <Grid item md={4}>
-                    <Box col="12" pt={{ xs:10,  md:15 }} textAlign="center" >
-                        <ResponsiveImgMaterialUi xs={LogoMasterPlan} style={{ width:"15rem" }} />
-                    </Box>        
-                </Grid>
-                <Grid item xs={12} md={8} >
-                    <Box col="12" pt={{ md:25 }} className={classes.textCollegeTitle} align="justify">  
-                        <a href="https://www.mplan.io/" rel="noreferrer" target="_BLANK" data-tip data-for="registerTipmplan">
-                            Master Plan
-                        </a>                      
-                    </Box>
-                    <Box col="12" pt={{ md:2 }} align="justify" >
-                        <p> Developer Frontend, Bugs Fix. </p>
-                        <p> Livewire, HTML, PHP, Laravel, JavaScript, Taildwind, css. </p>
-                        <a href="https://www.mplan.io/" rel="noreferrer" target="_BLANK" data-tip data-for="registerTipmplan">
-                            https://www.mplan.io/
-                        </a>
-                    </Box>              
-                </Grid>
-                <ReactTooltip id="registerTipmplan" place="top" effect="float">
-                    Go to https://www.mplan.io/
                 </ReactTooltip>
             </Grid>    
             <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px" }}> </Grid>

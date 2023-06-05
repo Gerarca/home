@@ -36,21 +36,25 @@ import LogoSneider from "../../assets/img/sneiderelectric.png";
 import LogoSiemens from "../../assets/img/siemens.png";
 import LogoABB from "../../assets/img/abb.png";
 import LogoGit from "../../assets/img/git.png";
-import LogoGitLab from "../../assets/img/gitlab.svg";
-import LogoBitBucket from "../../assets/img/bitbucket.svg";
+import LogoGitLab from "../../assets/img/gitlab.png";
+import LogoBitBucket from "../../assets/img/bitbucket.png";
 import LogoVSC from "../../assets/img/visualstudio.svg";
 import LogoPhotoshop from "../../assets/img/photoshop.png";
 import Laravel from "../../assets/img/laravel.svg";
 import Docker from "../../assets/img/docker.webp";
-
+import LogoAngular from "../../assets/img/angular.png";
+import LogoTypescript from "../../assets/img/typescript.png";
+import LogoNextJS from "../../assets/img/next-js.png";
+import LogoTablePlus from "../../assets/img/tablePlus.png";
+import LogoMYSQLWorkBench from "../../assets/img/mysqlworkbench.png"
 
 const Skills = () => {
 const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
 
 return (
     <div>
-        <Box textAlign="center" pt={{ xs:20 }} px={4} >
-            <Grid container spacing={2} xs={12} className="skillHover" style={{ background:'#f1f1f1', borderRadius:'10px' }} >             
+        <Box textAlign="center" pt={{ xs:20 }} px={4}>
+            <Grid container spacing={2} xs={12} className="skillHover" style={{ background:'#f1f1f1', borderRadius:'10px', marginTop: '-3rem' }} >             
                 <Grid item xs={12} md={2} textAlign="center" style={{ margin:'auto'}}>
                     <Typography variant="h5">Front End</Typography>
                 </Grid>        
@@ -60,13 +64,29 @@ return (
                             <Grid alignItems="center" justifyContent="center" >
                                 <ResponsiveImgMaterialUi xs={LogoReact} style={{ width:"5rem" }}  />
                             </Grid>
-                            <Grid alignItems="center" justifyContent="center" >
+                            <Grid alignItems="center" justifyContent="center" style={{ marginTop: "-0.5rem" }} >
                                 <Typography className="textSkill">React JS</Typography>
+                            </Grid>                 
+                        </Grid>
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Grid alignItems="center" justifyContent="center" >
+                                <ResponsiveImgMaterialUi xs={LogoNextJS} style={{ width:"6rem" }}  />
+                            </Grid>
+                            <Grid alignItems="center" justifyContent="center" >
+                                <Typography className="textSkill">Next JS</Typography>
+                            </Grid>                 
+                        </Grid>
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Grid alignItems="center" justifyContent="center" >
+                                <ResponsiveImgMaterialUi xs={LogoAngular} style={{ width:"3rem" }}  />
+                            </Grid>
+                            <Grid alignItems="center" justifyContent="center" style={{ marginTop:'-0.1rem' }}>
+                                <Typography className="textSkill">Angular JS</Typography>
                             </Grid>                 
                         </Grid>
                         <Grid item style={{ margin:'auto 0' }}> 
                             <Grid alignItems="center" justifyContent="center">
-                                <ResponsiveImgMaterialUi xs={LogoVue} style={{ width:"4rem" }} />
+                                <ResponsiveImgMaterialUi xs={LogoVue} style={{ width:"3.5rem" }} />
                             </Grid>
                             <Grid alignItems="center" justifyContent="center">
                                 <Typography className="textSkill">Vue JS</Typography>
@@ -82,9 +102,9 @@ return (
                         </Grid>
                         <Grid item style={{ margin:'auto 0' }}> 
                             <Box col="12">
-                                <ResponsiveImgMaterialUi xs={LogoPHP} style={{ width:"7rem" }} />
+                                <ResponsiveImgMaterialUi xs={LogoPHP} style={{ width:"6rem" }} />
                             </Box>  
-                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.1rem 0 0 0' }}>
                                 <Typography className="textSkill">PHP</Typography>
                             </Box>  
                         </Grid>
@@ -92,39 +112,49 @@ return (
                             <Box col="12">
                                 <ResponsiveImgMaterialUi xs={Laravel} style={{ width:"3rem" }} />
                             </Box>  
-                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
                                 <Typography className="textSkill">Laravel</Typography>
+                            </Box>  
+                        </Grid>
+                        <Grid item style={{ margin:'auto 0' }}> 
+                            <Box col="12">
+                                <ResponsiveImgMaterialUi xs={LogoHTML} style={{ width:"3rem" }} />
+                            </Box>  
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
+                                <Typography className="textSkill">HTML</Typography>
                             </Box>  
                         </Grid>
                         <Grid item style={{ margin:'auto 0' }}>
                             <Box col="12">
                                 <ResponsiveImgMaterialUi xs={LogoJavascript} style={{ width:"3rem" }} />
                             </Box>  
-                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
                                 <Typography className="textSkill">Javascript</Typography>
                             </Box>  
                         </Grid>    
                         <Grid item style={{ margin:'auto 0' }}>
                             <Box col="12">
-                                <ResponsiveImgMaterialUi xs={LogoHTML} style={{ width:"3rem" }} />
+                                <ResponsiveImgMaterialUi xs={LogoTypescript} style={{ width:"3rem" }} />
                             </Box>  
-                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
-                                <Typography className="textSkill">HTML</Typography>
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
+                                <Typography className="textSkill">Typescript</Typography>
                             </Box>  
                         </Grid>                           
-                        <Grid item style={{ margin:'auto 0' }}>
-                            <Box col="12">
-                                <ResponsiveImgMaterialUi xs={LogoCSS} style={{ width:"3rem" }} />
-                            </Box>  
-                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
-                                <Typography className="textSkill">Css</Typography>
-                            </Box>  
-                        </Grid>  
+                    </Grid> 
+                </Grid>                
+            </Grid> 
+
+            <Grid container spacing={2} xs={12} className="skillHover" style={{ background:'#f1f1f1', borderRadius:'10px', marginTop:'2rem' }} >             
+                <Grid item xs={12} md={2} textAlign="center" style={{ margin:'auto'}}>
+                    <Typography variant="h5">CSS</Typography>
+                </Grid>        
+                <Grid item xs={12} md={10}> 
+                    <Grid container spacing={3} xs={12} md={12} alignItems="center" justifyContent="center" >                        
                         <Grid item style={{ margin:'auto 0' }}>
                             <Box col="12">
                                 <ResponsiveImgMaterialUi xs={LogoBoostrap} style={{ width:"5rem" }} />
                             </Box>  
-                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
                                 <Typography className="textSkill">Bootstrap</Typography>
                             </Box>  
                         </Grid>  
@@ -132,7 +162,7 @@ return (
                             <Box col="12">
                                 <ResponsiveImgMaterialUi xs={LogoTailwind} style={{ width:"3.5rem" }} />
                             </Box>  
-                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
                                 <Typography className="textSkill">Tailwind</Typography>
                             </Box>  
                         </Grid>    
@@ -140,7 +170,7 @@ return (
                             <Box col="12">
                                 <ResponsiveImgMaterialUi xs={LogoVuetify} style={{ width:"3rem" }} />
                             </Box>  
-                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
                                 <Typography className="textSkill">Vuetify</Typography>
                             </Box>  
                         </Grid>       
@@ -148,8 +178,16 @@ return (
                             <Box col="12">
                                 <ResponsiveImgMaterialUi xs={LogoMaterialUI} style={{ width:"4rem" }} />
                             </Box>  
-                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'0.6rem 0 0 0' }}>
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
                                 <Typography className="textSkill">Material UI</Typography>
+                            </Box>  
+                        </Grid> 
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Box col="12">
+                                <ResponsiveImgMaterialUi xs={LogoCSS} style={{ width:"3rem" }} />
+                            </Box>  
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.3rem 0 0 0' }}>
+                                <Typography className="textSkill">CSS</Typography>
                             </Box>  
                         </Grid> 
                     </Grid> 
@@ -166,16 +204,8 @@ return (
                             <Grid alignItems="center" justifyContent="center" >
                                 <ResponsiveImgMaterialUi xs={LogoNode} style={{ width:"7rem" }}  />
                             </Grid>
-                            <Grid alignItems="center" justifyContent="center" >
+                            <Grid alignItems="center" justifyContent="center" style={{ marginTop: "-0.5rem" }} >
                                 <Typography className="textSkill">Node JS</Typography>
-                            </Grid>                 
-                        </Grid>
-                        <Grid item style={{ margin:'auto 0' }}>
-                            <Grid alignItems="center" justifyContent="center" >
-                                <ResponsiveImgMaterialUi xs={Laravel} style={{ width:"3rem" }}  />
-                            </Grid>
-                            <Grid alignItems="center" justifyContent="center" >
-                                <Typography className="textSkill">Laravel</Typography>
                             </Grid>                 
                         </Grid>
                         <Grid item style={{ margin:'auto 0' }}> 
@@ -201,6 +231,14 @@ return (
                             <Grid alignItems="center" justifyContent="center">
                                 <Typography className="textSkill">Docker</Typography>
                             </Grid>                               
+                        </Grid>
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Grid alignItems="center" justifyContent="center" >
+                                <ResponsiveImgMaterialUi xs={Laravel} style={{ width:"3rem" }}  />
+                            </Grid>
+                            <Grid alignItems="center" justifyContent="center" style={{ marginTop: "-0.6rem" }} >
+                                <Typography className="textSkill">Laravel</Typography>
+                            </Grid>                 
                         </Grid>
                     </Grid> 
                 </Grid>                
@@ -314,42 +352,58 @@ return (
                     <Grid container spacing={3} xs={12} md={12} alignItems="left" justifyContent="center" >
                         <Grid item style={{ margin:'auto 0' }}>
                             <Grid alignItems="center" justifyContent="center" >
-                                <ResponsiveImgMaterialUi xs={LogoGit} style={{ width:"5rem" }}  />
+                                <ResponsiveImgMaterialUi xs={LogoGit} style={{ width:"4rem" }}  />
                             </Grid>
-                            <Grid alignItems="center" justifyContent="center" style={{ marginBottom:'-1.5rem' }}>
+                            <Grid alignItems="center" justifyContent="center" style={{ marginBottom:'-1rem' }}>
                                 <Typography className="textSkill">Git</Typography>
                             </Grid>                 
                         </Grid>
                         <Grid item style={{ margin:'auto 0' }}>
                             <Grid alignItems="center" justifyContent="center">
-                                <ResponsiveImgMaterialUi xs={LogoGitLab} style={{ width:"8rem" }} />
+                                <ResponsiveImgMaterialUi xs={LogoGitLab} style={{ width:"6rem" }} />
                             </Grid>
-                            <Grid alignItems="center" justifyContent="center" style={{ marginBottom:'-0.5rem' }}>
+                            <Grid alignItems="center" justifyContent="center" style={{ marginBottom:'-1rem' }}>
                                 <Typography className="textSkill">GitLab</Typography>
                             </Grid>                               
                         </Grid>    
                         <Grid item style={{ margin:'auto 0' }}>
                             <Grid alignItems="center" justifyContent="center">
-                                <ResponsiveImgMaterialUi xs={LogoBitBucket} style={{ width:"10rem" }} />
+                                <ResponsiveImgMaterialUi xs={LogoBitBucket} style={{ width:"8rem" }} />
                             </Grid>
-                            <Grid alignItems="center" justifyContent="center" style={{ marginBottom:'-1.5rem' }}>
+                            <Grid alignItems="center" justifyContent="center" style={{ marginBottom:'-1rem' }}>
                                 <Typography className="textSkill">BitBucket</Typography>
                             </Grid>                               
                         </Grid>
                         <Grid item style={{ margin:'auto 0' }}>
                             <Grid alignItems="center" justifyContent="center">
-                                <ResponsiveImgMaterialUi xs={LogoPhotoshop} style={{ width:"4rem" }} />
+                                <ResponsiveImgMaterialUi xs={LogoPhotoshop} style={{ width:"3rem" }} />
                             </Grid>
-                            <Grid alignItems="center" justifyContent="center">
+                            <Grid alignItems="center" justifyContent="center" style={{ marginBottom: '-0.1rem' }}>
                                 <Typography className="textSkill">Photoshop</Typography>
                             </Grid>                               
                         </Grid>
                         <Grid item style={{ margin:'auto 0' }}>
                             <Grid alignItems="center" justifyContent="center">
-                                <ResponsiveImgMaterialUi xs={LogoVSC} style={{ width:"3rem" }} />
+                                <ResponsiveImgMaterialUi xs={LogoVSC} style={{ width:"2rem" }} />
                             </Grid>
-                            <Grid alignItems="center" justifyContent="center" >
+                            <Grid alignItems="center" justifyContent="center" style={{ marginBottom:"-0.5rem" }}>
                                 <Typography className="textSkill">VS Code</Typography>
+                            </Grid>                               
+                        </Grid>
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Grid alignItems="center" justifyContent="center">
+                                <ResponsiveImgMaterialUi xs={LogoTablePlus} style={{ width:"3rem" }} />
+                            </Grid>
+                            <Grid alignItems="center" justifyContent="center" style={{ marginTop:"-0.5rem" }}>
+                                <Typography className="textSkill">Table Plus</Typography>
+                            </Grid>                               
+                        </Grid>
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Grid alignItems="center" justifyContent="center">
+                                <ResponsiveImgMaterialUi xs={LogoMYSQLWorkBench} style={{ width:"3rem" }} />
+                            </Grid>
+                            <Grid alignItems="center" justifyContent="center"  style={{ marginTop:"-0.5rem" }}>
+                                <Typography className="textSkill">WorkBench</Typography>
                             </Grid>                               
                         </Grid>
                     </Grid> 

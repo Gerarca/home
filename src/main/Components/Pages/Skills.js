@@ -47,6 +47,7 @@ import LogoTypescript from "../../assets/img/typescript.png";
 import LogoNextJS from "../../assets/img/next-js.png";
 import LogoTablePlus from "../../assets/img/tablePlus.png";
 import LogoMYSQLWorkBench from "../../assets/img/mysqlworkbench.png"
+import LogoPostman from "../../assets/img/postman.png";
 
 const Skills = () => {
 const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
@@ -404,6 +405,14 @@ return (
                             </Grid>
                             <Grid alignItems="center" justifyContent="center"  style={{ marginTop:"-0.5rem" }}>
                                 <Typography className="textSkill">WorkBench</Typography>
+                            </Grid>                               
+                        </Grid>
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Grid alignItems="center" justifyContent="center">
+                                <ResponsiveImgMaterialUi xs={LogoPostman} style={{ width:"3rem" }} />
+                            </Grid>
+                            <Grid alignItems="center" justifyContent="center"  style={{ marginTop:"-0.5rem" }}>
+                                <Typography className="textSkill">Postman API</Typography>
                             </Grid>                               
                         </Grid>
                     </Grid> 

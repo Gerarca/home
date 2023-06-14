@@ -32,7 +32,7 @@ const Personal = () => {
                                 'Rise and Rise Until Lambs Become Lions' (Robin Hood(2010), is my fav quote. I define myself like an creative person, persitent, perfectionist, I like challenges, teamwork, share my knowledge and learn from others, I like so much ALL about Techonologies, computing and electronic systems, my strength is in analysis, programming, inplantation, audit, advice and management of computer systems, control systems and industrial electronic.
                             </p>
                             <p className={classes.textProfile} style={{ textAlign:'justify', textJustify:'inter-word' }} >
-                                Another important fact, I like frontend and backend development, languages English (B2), French (A1), Spanish(native), and besides, apart from software developer, I also have other passions I played  Guitar, Piano, Sudoku, Running, Reading and Swimming.
+                                Another important fact, I like frontend and backend development, languages English (B1), French (A1), Spanish(native), and besides, apart from software developer, I also have other passions I played  Guitar, Piano, Sudoku, Running, Reading and Swimming.
                             </p>
                         </Box>             
                     </Grid>

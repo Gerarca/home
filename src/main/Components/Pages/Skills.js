@@ -48,6 +48,8 @@ import LogoNextJS from "../../assets/img/next-js.png";
 import LogoTablePlus from "../../assets/img/tablePlus.png";
 import LogoMYSQLWorkBench from "../../assets/img/mysqlworkbench.png"
 import LogoPostman from "../../assets/img/postman.png";
+import LogoCypress from "../../assets/img/cypress.png";
+import LogoJest from "../../assets/img/jest.png";
 
 const Skills = () => {
 const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
@@ -191,6 +193,32 @@ return (
                                 <Typography className="textSkill">CSS</Typography>
                             </Box>  
                         </Grid> 
+                    </Grid> 
+                </Grid>                
+            </Grid> 
+
+            <Grid container spacing={2} xs={12} className="skillHover" style={{ background:'#f1f1f1', borderRadius:'10px', marginTop:'2rem' }} >             
+                <Grid item xs={12} md={2} textAlign="center" style={{ margin:'auto'}}>
+                    <Typography variant="h5">Test</Typography>
+                </Grid>        
+                <Grid item xs={12} md={10}> 
+                    <Grid container spacing={3} xs={12} md={12} alignItems="center" justifyContent="center" >                        
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Box col="12">
+                                <ResponsiveImgMaterialUi xs={LogoCypress} style={{ width:"10rem" }} />
+                            </Box>  
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
+                                <Typography className="textSkill">Cypress </Typography>
+                            </Box>  
+                        </Grid>                       
+                        <Grid item style={{ margin:'auto 0' }}>
+                            <Box col="12">
+                                <ResponsiveImgMaterialUi xs={LogoJest} style={{ width:"2.5rem" }} />
+                            </Box>  
+                            <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
+                                <Typography className="textSkill">Jets </Typography>
+                            </Box>  
+                        </Grid>  
                     </Grid> 
                 </Grid>                
             </Grid> 

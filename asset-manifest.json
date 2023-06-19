@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/home/static/css/main.b2d7ba43.css",
-    "main.js": "/home/static/js/main.cbc613fb.js",
+    "main.js": "/home/static/js/main.742dc47e.js",
     "static/media/logo.png": "/home/static/media/logo.e9712bf94dcead3afd06.png",
     "static/media/frigorifico.png": "/home/static/media/frigorifico.1f3d70a155cbc1d71482.png",
     "static/media/brain.gif": "/home/static/media/brain.25246fd03a1711d50b86.gif",
@@ -13,6 +13,7 @@
     "static/media/phone.svg.png": "/home/static/media/phone.svg.8851ff7bb0514b5667fc.png",
     "static/media/mysqlworkbench.png": "/home/static/media/mysqlworkbench.ceb8325f97bd0e35711d.png",
     "static/media/balpar.png": "/home/static/media/balpar.628aa86b5472c4810192.png",
+    "static/media/cypress.png": "/home/static/media/cypress.92ba9439b5c168d64330.png",
     "static/media/fisae.svg": "/home/static/media/fisae.b590c120ec47b263196c3980a4df75da.svg",
     "static/media/graphql.png": "/home/static/media/graphql.e37f8a41eb3ad8141cd1.png",
     "static/media/gitlab.png": "/home/static/media/gitlab.942a28eb21ad3b30fffa.png",
@@ -72,10 +73,10 @@
     "static/media/visualstudio.svg": "/home/static/media/visualstudio.b8b1e001813039750e6c05c236ab0d46.svg",
     "static/media/material-ui.svg": "/home/static/media/material-ui.fd510ed8518b192069590b04e2e6348a.svg",
     "main.b2d7ba43.css.map": "/home/static/css/main.b2d7ba43.css.map",
-    "main.cbc613fb.js.map": "/home/static/js/main.cbc613fb.js.map"
+    "main.742dc47e.js.map": "/home/static/js/main.742dc47e.js.map"
   },
   "entrypoints": [
     "static/css/main.b2d7ba43.css",
-    "static/js/main.cbc613fb.js"
+    "static/js/main.742dc47e.js"
   ]
 }

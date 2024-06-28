@@ -50,7 +50,9 @@ import LogoRasil from "../../assets/img/rasil.png";
 import LogoStart from "../../assets/img/start.png";
 import LogoUrbania from "../../assets/img/urbania.png";
 import LogoYasui from "../../assets/img/yasui.svg";
-import LogoNextReact from "../../assets/img/next-react.png"
+import LogoNextReact from "../../assets/img/next-react.png";
+import LogoSvelte from "../../assets/img/svelte.png";
+import LogoAuth from "../../assets/img/auth0.png";
 
 const useStyles = makeStyles((theme) => ({
     textCollegeTitle: {
@@ -66,6 +68,60 @@ const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
 return (
     <div>
         <Box px={4} textAlign="center" >
+
+            <Grid container spacing={2} alignItems="center" justifyContent="center">
+                <Grid item md={4}>
+                    <Box col="12" pt={{ xs:10,  md:15 }} textAlign="center" >
+                        <ResponsiveImgMaterialUi xs={LogoSvelte}   style={{ width:"12rem" }} />
+                    </Box>        
+                </Grid>
+                <Grid item xs={12}  md={8} >
+                    <Box col="12" pt={{ md:25 }} className={classes.textCollegeTitle} align="justify">  
+                        <a href="javascript:void(0)" rel="noreferrer"  data-tip data-for="registerTicket">
+                            Remittance System 
+                        </a>                      
+                    </Box>
+                    <Box col="12" pt={{ md:2 }} align="justify" >
+                        <p> <strong> Coingroup </strong>  </p>
+                        <p> Developer Frontend. </p>
+                        <p> SvelteKit, Bootstrap. </p>
+                        <a href="javascript:void(0)" rel="noreferrer" data-tip data-for="registerTicket">
+                            Private System
+                        </a> 
+                    </Box>              
+                </Grid>
+                <ReactTooltip id="registerTicket" place="top" effect="float">
+                    System cannot be displayed, due to privacy agreements.
+                </ReactTooltip> 
+            </Grid>    
+            <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px" }}> </Grid> 
+
+            <Grid container spacing={2} alignItems="center" justifyContent="center">
+                <Grid item md={4}>
+                    <Box col="12" pt={{ xs:10,  md:15 }} textAlign="center" >
+                        <ResponsiveImgMaterialUi xs={LogoAuth}   style={{ width:"12rem" }} />
+                    </Box>        
+                </Grid>
+                <Grid item xs={12}  md={8} >
+                    <Box col="12" pt={{ md:25 }} className={classes.textCollegeTitle} align="justify">  
+                        <a href="javascript:void(0)" rel="noreferrer"  data-tip data-for="registerTicket">
+                            System Administrative
+                        </a>                      
+                    </Box>
+                    <Box col="12" pt={{ md:2 }} align="justify" >
+                        <p> <strong> Bithonor </strong>  </p>
+                        <p> Developer Full Stack. </p>
+                        <p> Vue JS, Nuxt JS, Node JS, Auth0, Multiservices, Docker, Typescript, Postgres, Css. </p>
+                        <a href="javascript:void(0)" rel="noreferrer" data-tip data-for="registerTicket">
+                            Private System
+                        </a> 
+                    </Box>              
+                </Grid>
+                <ReactTooltip id="registerTicket" place="top" effect="float">
+                    System cannot be displayed, due to privacy agreements.
+                </ReactTooltip> 
+            </Grid>    
+            <Grid item xs={12} mt="10" style={{ background: '#E0E0E0', height:"2px" }}> </Grid> 
 
             <Grid container spacing={2} alignItems="center" justifyContent="center">
                 <Grid item md={4}>

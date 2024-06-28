@@ -50,6 +50,7 @@ import LogoMYSQLWorkBench from "../../assets/img/mysqlworkbench.png"
 import LogoPostman from "../../assets/img/postman.png";
 import LogoCypress from "../../assets/img/cypress.png";
 import LogoJest from "../../assets/img/jest.png";
+import LogoSvelte from "../../assets/img/svelte.png"
 
 const Skills = () => {
 const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
@@ -142,7 +143,15 @@ return (
                             <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
                                 <Typography className="textSkill">Typescript</Typography>
                             </Box>  
-                        </Grid>                           
+                        </Grid>         
+                        <Grid item style={{ margin:'auto 0' }}>
+                        <Box col="12">
+                            <ResponsiveImgMaterialUi xs={LogoSvelte} style={{ width:"3rem" }} />
+                        </Box>  
+                        <Box col="12" alignItems='center' justifyContent="center" style={{ margin:'-0.5rem 0 0 0' }}>
+                            <Typography className="textSkill">Svelte</Typography>
+                        </Box>  
+                    </Grid>                  
                     </Grid> 
                 </Grid>                
             </Grid> 

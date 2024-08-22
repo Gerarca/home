@@ -85,7 +85,7 @@ return (
                                 <ResponsiveImgMaterialUi xs={LogoAngular} style={{ width:"3rem" }}  />
                             </Grid>
                             <Grid alignItems="center" justifyContent="center" style={{ marginTop:'-0.1rem' }}>
-                                <Typography className="textSkill">Angular JS</Typography>
+                                <Typography className="textSkill">Angular</Typography>
                             </Grid>                 
                         </Grid>
                         <Grid item style={{ margin:'auto 0' }}> 
